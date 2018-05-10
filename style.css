@@ -1,9 +1,42 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+.title{
+	background-image:url("https://www.fondoswiki.com/Uploads/fondoswiki.com/Resoluciones/769-1920x1080.jpg");
+	width: auto;
+	height: auto;
+
+	font-family: 'Righteous', radiometry;
+	font-size-adjust: auto;
+	text-align: center;
+	line-height: 150px;
+	text-transform: capitalize;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 4px #000000, 0 0 50px rgb(80, 80, 80), 0 0 10px rgb(255, 255, 255);
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+p{
+	font-family: monospace;
+}
+
+@font-face {
+	font-family:radiometry;
+	src:url("fuentes/radiometry.ttf");
+}
+
+.navigator a button{
+	width: 400px;
+	box-shadow: 2px 2px 4px #000000, 0 0 50px rgb(80, 80, 80), 0 0 10px rgb(255, 255, 255);
+}
+
+.navigator a button:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(100, 100, 100);
+}
+
+img{
+	padding-top: 10px;
+}
+
+.table1{
+	border: rgb(255, 255, 255) 3px solid;
+	border-collapse: separate;
+	text-align: center;
 }
